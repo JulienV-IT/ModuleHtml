@@ -30,3 +30,7 @@ Je travail avec l'editeur **Atom** mais libre a vous d'utiliser celui de votre c
 - https://www.w3schools.com/whatis/whatis_htmldom.asp
 
 * Le CSS3 et FLEX
+- https://developer.mozilla.org/fr/docs/Web/CSS
+- https://www.w3schools.com/css/default.asp
+- https://www.w3schools.com/cssref/css3_pr_flex.asp (flex)
+- https://www.w3schools.com/csS/css3_flexbox.asp (flex)
