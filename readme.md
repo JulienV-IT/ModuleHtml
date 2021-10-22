@@ -14,7 +14,7 @@ Je travail avec l'editeur **Atom** mais libre a vous d'utiliser celui de votre c
 ## Les ressources:
 
 [MDN](https://developer.mozilla.org/fr/)
-[w3school](https://w3school.com)
+[w3schools](https://w3school.com)
 
 
 ## 1er JOUR:
