@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Analyse</title>
+  </head>
+  <style>
+    body{
+        /* margin: 10%; */
+        padding: 0;
+        border: 0;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-image: url("workinprogress.jpeg");
+    }
+
+
+
+    .container{
+      min-height: 1400px;
+      min-width: 80%;
+      text-align: center;
+      margin: 0 auto;
+      padding: 0 auto;
+      font-family: "VT323";
+
+    }
+
+    header{
+      height: 150px;
+      min-height: 25%;
+      width: 75%;
+      background-color: rgba(255,255,255,0.7);
+      margin: 0 auto;
+      padding: 0 auto;
+      border: 2px solid red;
+    }
+
+    #titre{
+    	box-shadow: -2px 1px 1px 11px red;
+    	border-radius: 100px;
+    	/* padding: 1px 1px 1px 150px; */
+    	background-color: white;
+    }
+
+    #text {
+      background: linear-gradient(-45deg, #6355a4, #6355a4, red, red);
+    	background-size: 25%;
+      font-family: "VT323";
+      font-weight: 900;
+    	font-size: 5vw;
+    	letter-spacing: -5px;
+    	text-transform: uppercase;
+    	-webkit-background-clip: text;
+    	-webkit-text-fill-color: transparent;
+    	animation: animated_text 10s ease-in-out infinite;
+    	-moz-animation: animated_text 10s ease-in-out infinite;
+    	-webkit-animation: animated_text 10s ease-in-out infinite;
+
+    }
+
+    @keyframes animated_text {
+    	0% { background-position: 0px 50%; }
+    	50% { background-position: 100% 50%; }
+    	100% { background-position: 0px 50%; }
+    }
+
+
+
+    section{
+      height: 450px;
+      min-height: 25%;
+      width: 75%;
+      background-color: rgba(255,255,255,0.5);
+      margin: 0 auto;
+      border: 2px solid red;
+    }
+
+    #paralax{
+      background-size: 100% 100%;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-image: url("space.jpeg");
+      color: whitesmoke;
+    }
+
+    img{
+      height: 25%;
+      width: 50%;
+    }
+  </style>
+  <link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+
+
+  <body>
+    <div class="container"><!-- le container est un éléments globale qui souvent contient l'integralité du contenus -->
+      <header>
+        <div id="titre"> <!--Le header est un haut de page ce sont les premiers elements que l'utilisateurs voit en dehors des menus (nav) -->
+          <h1 id="text" title="ceci est un titre!">Analyser !!!!</h1><!--Titre H1 (Le plus gros) -->
+        </div>
+          <p class="shadow">le temps d'y voir plus claire</p>
+      </header>
+      <section >
+        <h2 class="boxed">regardons la structure</h2>
+        <p>La Structure comporte plusieurs éléments html, que nous pouvons agencer comme nous le souhaitons.</p>
+      </section>
+
+      <section id="paralax">
+        <h2>Et maintenant le css!</h2>
+        <p>Si l'on regarde le css on découvre de nouvelle proprieté que l'on peut appliquer a nos éléments</p>
+        <article>
+          <img src="homer.jpeg">
+          <figcaption></figcaption>
+        </article>
+      </section>
+      <section>
+        <!-- ici vos éléments html -->
+      </section>
+    </div>
+  </body>
+</html>

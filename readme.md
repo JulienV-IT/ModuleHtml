@@ -22,6 +22,8 @@ Je travail avec l'editeur **Atom** mais libre a vous d'utiliser celui de votre c
 
 * Introduction: tour de table et mise au point
 
+* installation des environnements
+
 * Les balises HTML , la structure d'une page
 - https://developer.mozilla.org/fr/docs/Web/HTML
 - https://www.w3schools.com/html/default.asp
@@ -31,6 +33,8 @@ Je travail avec l'editeur **Atom** mais libre a vous d'utiliser celui de votre c
 - https://www.w3schools.com/whatis/whatis_htmldom.asp
 
 ## 2eme JOUR:
+
+* le coté serveur & les languages backend
 
 * Les Propriétés et Unités
 -  https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Values_and_Units
