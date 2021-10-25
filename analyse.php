@@ -1,3 +1,10 @@
+<?php 
+$nom = "mon blaze";
+var_dump($nom);
+
+
+
+?>
 <!DOCTYPE html>
 <html lang="fr">
   <head>
@@ -132,7 +139,7 @@
         <p>Pour les plus avancer d'entre vous merci de rediger un formulaire et de le styliser</p>
         <form method="post" action="resultats.php" align="center">
 
-          Nom:        <input type="text" size="10" maxlength="40" name="name" /><br />
+          Nom: <input type="text" size="10" maxlength="40" name="name" /><br />
           Mot de passe: <input type="password" size="10" maxlength="10" name="password" /><br />
           
          
@@ -174,8 +181,8 @@
           <option value="techno" >Techno</option> 
         </select><br />
 
-        <h2>Votre photo : <input type="hidden" name="MAX_FILE_SIZE" value="100" /> <input name="file" type="file" /></h2>
-        
+        <!-- <h2>Votre photo : <input type="hidden" name="MAX_FILE_SIZE" value="100" /> <input name="file" type="file" /></h2>
+        -->
         <input type="submit" value="Valider" />
           
         </form>
