@@ -1,47 +1,62 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Free Web tutorials">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta name="author" content="John Doe">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" src="style.css">
-  </head>
-  <style>
+<head>
+	<link rel="stylesheet" href="mystyle.css">
+	<meta charset="utf-8"/>
+</head>
+<body>
 
-  /*appel de balise général (Toutes les balises body)*/
-  body{
+  <h1>Module HTML/CSS</h1>
+  <p>Mon 1er site web.</p>
+  <a href="analyse.html">Analyse</a>
+  <br>
 
-  }
-  /*identifiant unique pour un seul element ne peut etre declarer dans le html qu'une seul fois */
-  #Zoomed{
+  <form method="post" action="mailto:ecoutelemonde2012@gmail.com" align="center">.
 
-  }
-  /*class pour plusieurs objets peut etre appeller plusieurs fois dans le html */
-  .Zoomed{
-    border: 3px solid red;
-    height: 50vh;
-    width: 50vw;
-  }
-  /*class de survole*/
-  .Zoomed:hover{
-    background-color: yellow;
-    transform: scale(1.5);
-  }
+    Name: <input type="text" size="10" maxlength="40" name="name" /><br />
+    Password: <input type="password" size="10" maxlength="10" name="password" /><br />
 
-  </style>
-  <body>
-    <section id="Section1">
-      <div class="Zoomed">
-        <h1>Module HTML/CSS</h1>
 
-      </div>
-      <p>Mon 1er site web.</p>
-      <a href="analyse.html">Analyse</a>
-    </section>
-    <article>
-    </article>
-    <script type="text/javascript" src="script.js"></script>
-  </body>
+
+    <p>Quel type de chaussures vous portez ?</p>
+
+	<label>Color:</label> <br />
+	<input type="radio" name="color" value="sombre" /> Sombres <br />
+	<input type="radio" name="color" value="clair" /> Claires <br />
+
+	<label>Size:</label> <br />
+	<input type="radio" name="size" value="petite" /> Petites <br />
+	<input type="radio" name="size" value="moyenne" /> Moyennes <br />
+	<input type="radio" name="size" value="grande" /> Grandes <br />
+
+
+
+  <form method="post" action="mailto:votreemail@email.com">
+    <p>Quelle couleur de chaussures vous préférez?</p>
+
+    <input type="checkbox" name="shoes" value="noires" /> Simple Noires <br/>
+    <input type="checkbox" name="shoes" value="blanches" /> Simple Blanches <br/>
+    <input type="checkbox" name="shoes" value="grises" /> Nuances de gris <br/>
+    <input type="checkbox" name="shoes" value="noires&blanches" /> Noires et blanches<br/>
+
+
+  <p>Préférences musicales</p>
+
+	<select multiple name="musique" size="4">
+		<option value="emo" selected>Emo</option>
+		<option value="metal/rock" >Metal/Rock</option>
+		<option value="hiphop" >Hip Hop</option>
+		<option value="ska" >Ska</option>
+		<option value="jazz" >Jazz</option>
+		<option value="country" >Country</option>
+		<option value="classique" >Classique</option>
+		<option value="alternative" >Alternative</option>
+		<option value="retro" >Retro</option>
+		<option value="techno" >Techno</option>
+	</select><br />
+
+	<input type="submit" value="Valider" />
+
+  </form>
+</body>
 </html>

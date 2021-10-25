@@ -1,10 +1,7 @@
 <!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Analyse</title>
-  </head>
+<html>
+<head>
+
   <style>
     body{
         /* margin: 10%; */
@@ -101,42 +98,12 @@
     }
 
   </style>
-  <link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
 
+</head>
+<body>
 
-  <body>
-    <div class="container"><!-- le container est un éléments globale qui souvent contient l'integralité du contenus -->
-      <header>
-        <div id="titre"> <!--Le header est un haut de page ce sont les premiers elements que l'utilisateurs voit en dehors des menus (nav) -->
-          <h1 id="text" title="ceci est un titre!">Analyser !!!!</h1><!--Titre H1 (Le plus gros) -->
-        </div>
-          <p class="shadow">le temps d'y voir plus claire</p>
-      </header>
-      <section >
-        <h2 class="boxed">regardons la structure</h2>
-        <p>La Structure comporte plusieurs éléments html, que nous pouvons agencer comme nous le souhaitons.</p>
-      </section>
+<h1>My First CSS Example</h1>
+<p>This is a paragraph.</p>
 
-      <section id="paralax">
-        <h2>Et maintenant le css!</h2>
-        <p>Si l'on regarde le css on découvre de nouvelle proprieté que l'on peut appliquer a nos éléments</p>
-        <article>
-          <img src="homer.jpeg">
-          <figcaption>Ou punaise du CSS! </figcaption>
-        </article>
-      </section>
-      <section id="You">
-        <!-- ici vos éléments html -->
-        <h2>Ci-dessous vos exemples html & css</h2>
-        <p>Pour les plus avancer d'entre vous merci de rediger un formulaire et de le styliser</p>
-        <form method="post" action="mail.php">
-          <label>Nom</label>
-          <input type="text" id="nom" name="nom"></input>
-
-          <button type="submit">sendinfo</button>
-
-        </form>
-      </section>
-    </div>
-  </body>
+</body>
 </html>

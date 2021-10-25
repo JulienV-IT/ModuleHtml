@@ -3,6 +3,8 @@
 
 
 $nom = $_POST["nom"]; // recupération de l'entrée nom via form html
+$email =
+$msg =
 if (isset($nom) && !empty($nom)){ // condition qui verifie que notre variable est definit et non vide
   $nom = $nom; // si la condition est vérifiée alors notre variable peu etre égale a l'entrée utilisateur
 } else { // sinon
