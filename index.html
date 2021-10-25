@@ -1,12 +1,47 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" src="style.css">
+  </head>
+  <style>
 
-</head>
-<body>
+  /*appel de balise général (Toutes les balises body)*/
+  body{
 
-  <h1>Module HTML/CSS</h1>
-  <p>Mon 1er site web.</p>
-  <a href="analyse.html">Analyse</a>
-</body>
+  }
+  /*identifiant unique pour un seul element ne peut etre declarer dans le html qu'une seul fois */
+  #Zoomed{
+
+  }
+  /*class pour plusieurs objets peut etre appeller plusieurs fois dans le html */
+  .Zoomed{
+    border: 3px solid red;
+    height: 50vh;
+    width: 50vw;
+  }
+  /*class de survole*/
+  .Zoomed:hover{
+    background-color: yellow;
+    transform: scale(1.5);
+  }
+
+  </style>
+  <body>
+    <section id="Section1">
+      <div class="Zoomed">
+        <h1>Module HTML/CSS</h1>
+
+      </div>
+      <p>Mon 1er site web.</p>
+      <a href="analyse.html">Analyse</a>
+    </section>
+    <article>
+    </article>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
 </html>
