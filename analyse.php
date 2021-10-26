@@ -130,29 +130,30 @@
         <!-- ici vos éléments html -->
         <h2>Ci-dessous vos exemples html & css</h2>
         <p>Pour les plus avancer d'entre vous merci de rediger un formulaire et de le styliser</p>
-        <form method="get" action="resultats.php" align="center">
+
+        <form method="post" action="resultats.php" align="center">
 
           Nom: <input type="text" size="10" maxlength="40" name="name" /><br />
-          <!-- Mot de passe: <input type="password" size="10" maxlength="10" name="password" /><br />
+          Mot de passe: <input type="password" size="10" maxlength="10" name="password" /><br />
 
 
 
           <h2><p>Quel type de chaussures vous portez ?</p></h2>
-
-        <label>Couleur:</label> <br />
-        <input type="radio" name="color" value="sombre" /> Sombres <br />
-        <input type="radio" name="color" value="clair" /> Claires <br />
-
-        <label>Taille:</label> <br />
-        <input type="radio" name="size" value="petite" /> Petites <br />
-        <input type="radio" name="size" value="moyenne" /> Moyennes <br />
-        <input type="radio" name="size" value="grande" /> Grandes <br />
-
-
+        <div id="selectColor">
+          <label>Couleur:</label> <br />
+          <input type="radio" name="color" value="sombre" /> Sombres <br />
+          <input type="radio" name="color" value="clair" /> Claires <br />
+        </div>
+        <div id="selectchaussure">
+          <label>Taille:</label> <br />
+          <input type="radio" name="size" value="petite" /> Petites <br />
+          <input type="radio" name="size" value="moyenne" /> Moyennes <br />
+          <input type="radio" name="size" value="grande" /> Grandes <br />
+        </div>
 
 
         <h2><p>Quelle couleur de chaussures vous préférez?</p></h2>
-
+        <div id="selectColorChaussure">
           <input type="checkbox" name="shoes" value="noires" /> Simple Noires <br/>
           <input type="checkbox" name="shoes" value="blanches" /> Simple Blanches <br/>
           <input type="checkbox" name="shoes" value="grises" /> Nuances de gris <br/>
@@ -161,7 +162,7 @@
 
           <h2><p>Préférences musicales</p></h2>
 
-        <select multiple name="musique" size="4">
+        <select multiple name="musique[]" size="4">
           <option value="emo" selected>Emo</option>
           <option value="metal/rock" >Metal/Rock</option>
           <option value="hiphop" >Hip Hop</option>
@@ -172,12 +173,12 @@
           <option value="alternative" >Alternative</option>
           <option value="retro" >Retro</option>
           <option value="techno" >Techno</option>
-        </select><br /> -->
+        </select><br />
 
-        <!-- <h2>Votre photo : <input type="hidden" name="MAX_FILE_SIZE" value="100" /> <input name="file" type="file" /></h2>
-        -->
         <input type="submit" value="Valider" />
+        <!-- <h2>Votre photo : <input type="hidden" name="MAX_FILE_SIZE" value="100" /> <input name="file" type="file" /></h2>
 
+      -->
         </form>
       </section>
       <br>

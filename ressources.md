@@ -42,3 +42,24 @@ ou
 [wampserver](https://www.wampserver.com/)
 
 [mampserver](https://www.mamp.info/en/downloads/)
+
+## developpement web
+
+
+**CSS**
+
+[css-references](https://www.w3schools.com/cssref/default.asps)
+
+[flex](https://flexboxfroggy.com/#fr)
+
+[Unité](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Values_and_Units)
+
+[typecSS](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Types)
+
+**PHP**
+
+[PHP-référence](https://www.w3schools.com/php/default.asp)
+
+[docofficiel](https://www.php.net/)
+
+[sendmail](https://sourceforge.net/projects/send-mail/)

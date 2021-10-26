@@ -1,21 +1,3 @@
-<?php
-
-
-
-$nom = $_POST["nom"]; // recupération de l'entrée nom via form html
-$email =
-$msg =
-if (isset($nom) && !empty($nom)){ // condition qui verifie que notre variable est definit et non vide
-  $nom = $nom; // si la condition est vérifiée alors notre variable peu etre égale a l'entrée utilisateur
-} else { // sinon
-  $nom = "error was happening!"; // on attribue a notre variable un message d'erreur
-}
-
-
-?>
-
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -41,3 +23,29 @@ if (isset($nom) && !empty($nom)){ // condition qui verifie que notre variable es
 </body>
 
 </html>
+
+
+<?php
+	if (isset($_POST['nom']) AND isset($_POST['mail']) AND isset($_POST['objet'])  AND isset($_POST['message'])){
+		$nom = $mail = $message = "";
+
+		function securisation($donnees){
+			$donnees = trim($donnees); // supprime les espaces
+			$donnees = stripslashes($donnees); // supprime les antislash
+			$donnees = strip_tags($donnees); // supprime les caractères spéciaux
+
+			return $donnees;
+		}
+
+		$nom = securisation($_POST['nom']);
+		$prenom = securisation($_POST['prenom']);
+		$mail = securisation($_POST['mail']);
+		$objet = securisation($_POST['objet']);
+		$message = securisation($_POST['message']);
+
+		mail('redfishaw@gmail.com', "$objet", "NOM/PRÉNOM DE L'EXPÉDITEUR:\n\n$nom".' '."$prenom\n\n ADRESSE MAIL:\n\n$mail\n\n MESSAGE:\n\n$message");
+	}
+
+	header('location: index.php');
+
+  ?>
