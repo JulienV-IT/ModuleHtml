@@ -1,1 +1,1 @@
-console.log("Yollow les devs");
+var test = "Yollow les devs";
