@@ -17,11 +17,4 @@
 	echo("<br>");
 	echo $get["mail"];
 	echo("<br>");
-
-
-
-
-
-
-
 ?>
