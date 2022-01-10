@@ -1,6 +1,14 @@
+@font-face {
+  font-family: mickeyenvadrouille;
+  src: url(lobster/Lobster1.4.otf);
+}
+
+
+
 body{
 	height: 1024px;
 	background-color:  lightcyan;
+	
 
 }
 
@@ -25,27 +33,15 @@ a:active{
 
 
 header{
-	height: 20%; 
-	border: 5px solid yellow;
+	/*height: 20%; */
+	/*border: 5px solid yellow;*/
 	background-color: blue;
 	text-align: center;
-
 }
 
 
 
 
-article{
-	text-align:  center;
-	margin: 0 auto;
-	border:  5px solid red;
-	width: 25%;
-}
-
-article:hover{
-	background-color: red;
-	color:  yellow;
-}
 
 
 div.homer{
@@ -58,14 +54,38 @@ div.homer{
 	background-size: cover;
 }
 
-section{
-	
+article{
+	text-align:  center;
 	margin: 0 auto;
+	border:  5px solid red;
+	width: 25%;
+	text-align: center;
+	float:  left;
+}
 
+.browser{
+	text-align:  center;
+	margin: 2%;
+	border:  5px solid red;
+	width: 25%;
+	
 }
 
 
+article:hover{
+	background-color: red;
+	color:  yellow;
+}
+section{
+	width:  100%;
+	margin: 0 auto;
+	
+}
 
+
+form{
+	margin-bottom: 2%;
+}
 
 
 footer{
@@ -75,6 +95,14 @@ footer{
 	   height:10%;   /* Height of the footer */
 	   background:#6cf;
 	   text-align: center;
+	   font-family: mickeyenvadrouille;
 }
 
 
+section{
+	background-color:  black;
+}
+
+section.classdelasection{
+	background-color:  red;
+}
